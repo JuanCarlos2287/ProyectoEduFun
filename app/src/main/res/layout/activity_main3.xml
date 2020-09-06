@@ -44,7 +44,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
-        android:background="@drawable/letraa" />
+        android:background="@drawable/letraa"
+        />
 
     <ImageButton
         android:id="@+id/b"
@@ -52,7 +53,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="75dp"
         android:layout_marginTop="100dp"
-        android:background="@drawable/letrab" />
+        android:background="@drawable/letrab"
+        />
 
     <ImageButton
         android:id="@+id/c"
