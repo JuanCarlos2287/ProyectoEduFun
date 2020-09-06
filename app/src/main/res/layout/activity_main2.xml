@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:id="@+id/botonabc"
+        android:text="ABECEDARIO"
+        android:textSize="25sp"
+        android:background="@drawable/boton_abc"
+        tools:ignore="HardcodedText"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:onClick="Abecedario"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:id="@+id/botonnum"
+        android:text="NÚMEROS"
+        android:textSize="25sp"
+        android:background="@drawable/boton_num"
+        tools:ignore="HardcodedText"
+        android:gravity="center"
+        android:layout_marginTop="70dp"
+        android:onClick="Num"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/botonabc"/>
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:id="@+id/botonani"
+        android:text="ANIMALES"
+        android:textSize="25sp"
+        android:background="@drawable/boton_mate"
+        tools:ignore="HardcodedText"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:onClick="animal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/botonnum"/>
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:id="@+id/regresar"
+        android:text="REGRESAR"
+        android:textSize="25sp"
+        android:background="@drawable/boton_regre"
+        android:backgroundTint="#8FBC8F"
+        tools:ignore="HardcodedText,UnusedAttribute"
+        android:gravity="center"
+        android:layout_marginTop="120dp"
+        android:onClick="regresar"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/botonani"/>
+
+
+</RelativeLayout>

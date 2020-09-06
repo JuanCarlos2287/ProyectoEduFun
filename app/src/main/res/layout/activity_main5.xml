@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo5"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:padding="16dp"
+    tools:context=".MainActivity5">
+
+
+    <Button
+        android:id="@+id/anterior"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/boton_regre"
+        android:gravity="center"
+        android:onClick="ant"
+        android:text="ant"
+        android:textSize="25sp"
+        android:backgroundTint="#00FFFF"
+        tools:ignore="HardcodedText,RtlHardcoded,UnusedAttribute" />
+
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="230dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp"
+        android:background="#FAE391F1"
+        android:gravity="center"
+        android:text="Números"
+        android:textColor="#000000"
+        android:textSize="45sp"
+        tools:ignore="HardcodedText"
+        android:layout_toRightOf="@+id/anterior"
+        android:layout_toEndOf="@+id/anterior" />
+
+    <Button
+            android:id="@+id/cero"
+            android:layout_width="190dp"
+            android:layout_height="80dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/boton_regre"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="40sp"
+            android:backgroundTint="#D87093"
+            tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded,UnusedAttribute"
+            android:layout_below="@id/titulo"/>
+
+        <Button
+            android:id="@+id/uno"
+            android:layout_width="190dp"
+            android:layout_height="80dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/boton_regre"
+            android:gravity="center"
+            android:text="1"
+            android:textSize="40sp"
+            android:backgroundTint="#D87093"
+            tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded,UnusedAttribute"
+            android:layout_below="@id/titulo"
+            android:layout_toRightOf="@+id/cero"/>
+
+
+        <Button
+            android:id="@+id/dos"
+            android:layout_width="190dp"
+            android:layout_height="80dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/boton_regre"
+            android:gravity="center"
+            android:text="2"
+            android:textSize="40sp"
+            android:backgroundTint="#FFC0CB"
+            tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded,UnusedAttribute"
+            android:layout_below="@id/cero"/>
+
+        <Button
+            android:id="@+id/tres"
+            android:layout_width="190dp"
+            android:layout_height="80dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/boton_regre"
+            android:gravity="center"
+            android:text="3"
+            android:textSize="40sp"
+            android:backgroundTint="#FFC0CB"
+            tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded,UnusedAttribute"
+            android:layout_below="@id/cero"
+            android:layout_toRightOf="@+id/dos"/>
+
+
+
+        <Button
+            android:id="@+id/cuatro"
+            android:layout_width="190dp"
+            android:layout_height="80dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/boton_regre"
+            android:gravity="center"
+            android:text="4"
+            android:textSize="40sp"
+            android:backgroundTint="#4169E1"
+            tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded,UnusedAttribute"
+            android:layout_below="@id/dos"/>
+
+        <Button
+            android:id="@+id/cinco"
+            android:layout_width="190dp"
+            android:layout_height="80dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/boton_regre"
+            android:gravity="center"
+            android:text="5"
+            android:textSize="40sp"
+            android:backgroundTint="#4169E1"
+            tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded,UnusedAttribute"
+            android:layout_below="@+id/dos"
+            android:layout_toRightOf="@id/cuatro"/>
+
+        <Button
+            android:id="@+id/seis"
+            android:layout_width="190dp"
+            android:layout_height="80dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/boton_regre"
+            android:gravity="center"
+            android:text="6"
+            android:textSize="40sp"
+            android:backgroundTint="#2E8B57"
+            tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded,UnusedAttribute"
+            android:layout_below="@id/cuatro"/>
+
+        <Button
+            android:id="@+id/siete"
+            android:layout_width="190dp"
+            android:layout_height="80dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/boton_regre"
+            android:gravity="center"
+            android:text="7"
+            android:textSize="40sp"
+            android:backgroundTint="#2E8B57"
+            tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded,UnusedAttribute"
+            android:layout_below="@+id/cuatro"
+            android:layout_toRightOf="@+id/seis"/>
+
+        <Button
+            android:id="@+id/ocho"
+            android:layout_width="190dp"
+            android:layout_height="80dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/boton_regre"
+            android:gravity="center"
+            android:text="8"
+            android:textSize="40sp"
+            android:backgroundTint="#87CEEB"
+            tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded,UnusedAttribute"
+            android:layout_below="@id/seis"/>
+
+    <Button
+        android:id="@+id/nueve"
+        android:layout_width="190dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/boton_regre"
+        android:backgroundTint="#87CEEB"
+        android:gravity="center"
+        android:text="9"
+        android:textSize="40sp"
+        tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded,UnusedAttribute"
+        android:layout_below="@+id/seis"
+        android:layout_toRightOf="@id/ocho"/>
+
+</RelativeLayout>
