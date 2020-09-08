@@ -5,14 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".FullScreenImage"
-    android:background="#000">
+    android:background="#DF656161">
 
 
     <ImageView
         android:id="@+id/detailsImage"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-
-        />
+        tools:ignore="ContentDescription" />
 
 </RelativeLayout>
